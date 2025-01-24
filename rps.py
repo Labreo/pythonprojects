@@ -10,8 +10,9 @@ while True:
     
     s=input("Make your choice:")
     s=s.lower()
-    if s!='quit' or s!='rock' or s!='paper' or s!='scissor':
-      print('Invalid command!Try again.')
+    if s not in ['quit', 'rock', 'paper', 'scissor', 'score']:
+      print('Invalid command! Try again.')
+      continue
     if s=="quit":
         print('\nThanks for playing!:)')
         break
