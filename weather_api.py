@@ -4,7 +4,7 @@ import os
 
 
 app = typer.Typer()
-API_KEY = os.getenv("OWM_API_KEY", "eb0f5d24b4f9fe0c04bd9eea102b2120")  # Use environment variable for production
+API_KEY = os.getenv("OWM_API_KEY", Enter api)  # Use environment variable for production
 
 
 def kelvin_to_celsius(kelvin: float) -> float:
